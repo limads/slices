@@ -12,7 +12,10 @@ extern "C" fn return_slice() -> Box<[f64]> { /*..*/ }
 
 Which are then compiled to a `.so`  to be loaded by Python `ctypes` module.
 This minimizes the use of ```rust unsafe { }``` blocks when building Rust APIs to be
-consumed by Python programs directly. It might help if Python is park of your
+consumed by Python programs directly. It might help if Python is part of your
 workflow, but you aren't really building a Python package with native extensions.
 
+# Instalation
 
+git clone https://github.com/limads/slices.git
+cd slices && pip3 install .
