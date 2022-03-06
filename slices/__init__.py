@@ -58,3 +58,4 @@ class Slice(Structure):
     def __iter__(self):
         return SliceIter(self)
 
+

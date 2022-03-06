@@ -2,7 +2,8 @@ from setuptools import setup
 
 setup(
     name='slices',
-    version='0.0.1',    
+    version='0.0.1',
+    packages=["slices"],
     description='Rust FFI helper',
     url='https://github.com/limads/slices',
     author='Diego Lima',

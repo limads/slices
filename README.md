@@ -18,4 +18,4 @@ workflow, but you aren't really building a Python package with native extensions
 # Instalation
 
 git clone https://github.com/limads/slices.git
-cd slices && pip3 install .
+cd slices && pip3 install --user .
